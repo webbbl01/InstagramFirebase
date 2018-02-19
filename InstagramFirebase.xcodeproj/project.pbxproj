@@ -11,6 +11,8 @@
 		BC221B1F2039E2F400669BB0 /* UserProfileController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC221B1E2039E2F400669BB0 /* UserProfileController.swift */; };
 		BC221B222039EB3E00669BB0 /* UserProfileHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC221B212039EB3E00669BB0 /* UserProfileHeader.swift */; };
 		BC221B25203A111000669BB0 /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC221B24203A111000669BB0 /* LoginController.swift */; };
+		BC221B28203A48D000669BB0 /* PhotoSelectorController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC221B27203A48D000669BB0 /* PhotoSelectorController.swift */; };
+		BC221B2A203A503C00669BB0 /* PhotoSelectorCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC221B29203A503C00669BB0 /* PhotoSelectorCell.swift */; };
 		BCFEFD8D2038DA9A00A88EAB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCFEFD8C2038DA9A00A88EAB /* AppDelegate.swift */; };
 		BCFEFD8F2038DA9A00A88EAB /* SignUpController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCFEFD8E2038DA9A00A88EAB /* SignUpController.swift */; };
 		BCFEFD922038DA9A00A88EAB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCFEFD902038DA9A00A88EAB /* Main.storyboard */; };
@@ -28,6 +30,8 @@
 		BC221B1E2039E2F400669BB0 /* UserProfileController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfileController.swift; sourceTree = "<group>"; };
 		BC221B212039EB3E00669BB0 /* UserProfileHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfileHeader.swift; sourceTree = "<group>"; };
 		BC221B24203A111000669BB0 /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
+		BC221B27203A48D000669BB0 /* PhotoSelectorController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoSelectorController.swift; sourceTree = "<group>"; };
+		BC221B29203A503C00669BB0 /* PhotoSelectorCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoSelectorCell.swift; sourceTree = "<group>"; };
 		BCFEFD892038DA9A00A88EAB /* InstagramFirebase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InstagramFirebase.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BCFEFD8C2038DA9A00A88EAB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BCFEFD8E2038DA9A00A88EAB /* SignUpController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpController.swift; sourceTree = "<group>"; };
@@ -87,6 +91,15 @@
 			path = Login;
 			sourceTree = "<group>";
 		};
+		BC221B26203A48BD00669BB0 /* AddGroup */ = {
+			isa = PBXGroup;
+			children = (
+				BC221B27203A48D000669BB0 /* PhotoSelectorController.swift */,
+				BC221B29203A503C00669BB0 /* PhotoSelectorCell.swift */,
+			);
+			path = AddGroup;
+			sourceTree = "<group>";
+		};
 		BCFEFD802038DA9A00A88EAB = {
 			isa = PBXGroup;
 			children = (
@@ -108,6 +121,7 @@
 		BCFEFD8B2038DA9A00A88EAB /* InstagramFirebase */ = {
 			isa = PBXGroup;
 			children = (
+				BC221B26203A48BD00669BB0 /* AddGroup */,
 				BC221B23203A110500669BB0 /* Login */,
 				BC221B202039EB2C00669BB0 /* UserProfile */,
 				BCFEFD9E2038E2D700A88EAB /* Utils */,
@@ -267,12 +281,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				BCFEFD8F2038DA9A00A88EAB /* SignUpController.swift in Sources */,
+				BC221B2A203A503C00669BB0 /* PhotoSelectorCell.swift in Sources */,
 				BCFEFDA02038E2E400A88EAB /* Extensions.swift in Sources */,
 				BC221B1D2039E24000669BB0 /* MainTabBarController.swift in Sources */,
 				BC221B222039EB3E00669BB0 /* UserProfileHeader.swift in Sources */,
 				BC221B1F2039E2F400669BB0 /* UserProfileController.swift in Sources */,
 				BCFEFD8D2038DA9A00A88EAB /* AppDelegate.swift in Sources */,
 				BC221B25203A111000669BB0 /* LoginController.swift in Sources */,
+				BC221B28203A48D000669BB0 /* PhotoSelectorController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
